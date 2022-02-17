@@ -14,7 +14,6 @@ app.use(bodyParser.json({
 }));
 
 app.post('/delta', function(req, res){
-  console.log("Hello");
   console.log(req.body);
   res.send("Done");
 })
